@@ -23,7 +23,7 @@ const Search = ({setSearch}) => {
       };
   
     return (
-     <div style={{maxWidth:350,textAlign:"center",}}>
+      <div style={{maxWidth:350,textAlign:"center", marginTop:50, marginBottom:0, marginLeft:110}}>
        <input 
         placeholder="Search for a crypto"
         variant="outlined"
